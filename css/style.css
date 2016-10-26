@@ -13,8 +13,8 @@
     text-decoration: none;
 }
 
-.mdl-mini-footer {
-    background-color: rgb(63,81,181);
+.footer-content {
+  margin: 20px 0;
 }
 
 .mdl-mini-footer__social-btn {
@@ -24,3 +24,19 @@
 .mdl-mini-footer__social-btn:hover {
     background-color: rgb(0, 80, 180);
 }
+
+
+ .mdl-layout__content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+ }
+
+ .mdl-layout__content > *:not(.mdl-layout-spacer) {
+ -webkit-flex: none;
+ -ms-flex: none;
+ flex: none;
+ }
