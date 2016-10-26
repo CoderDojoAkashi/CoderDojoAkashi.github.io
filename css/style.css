@@ -1,8 +1,18 @@
+html, body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 游ゴシック, "Yu Gothic", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
 .coderdojo-akashi-max-width {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
@@ -41,6 +51,3 @@
  flex: none;
  }
  
- html, body {
-     font-family: -apple-system, BlinkMacSystemFont, 游ゴシック, "Yu Gothic", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
- }
