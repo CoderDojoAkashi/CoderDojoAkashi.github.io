@@ -29,7 +29,7 @@
 }
 
 .portfolio-logo {
-  background: url(images/logo.png) 50% no-repeat;
+  background: url(images/CoderDojoAkashi_logo.png) 50% no-repeat;
   background-size: cover;
   height: 150px;
   width: 150px;
@@ -167,4 +167,3 @@ footer {
   background-image: url(images/footer-background.png);
   background-size: cover;
 }
-
