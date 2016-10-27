@@ -5,8 +5,27 @@ html, body {
   font-family: -apple-system, BlinkMacSystemFont, 游ゴシック, "Yu Gothic", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.5em;
   word-wrap: break-word;
+}
+
+p {
+  font-weight: normal;
+  line-height: 1.5em;
+  color: #333;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 18px;
+}
+
+.mdl-layout-title {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 游ゴシック, "Yu Gothic", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.mdl-navigation__link {
+  font-size: 18px;
 }
 
 .coderdojo-akashi-max-width {
