@@ -6,7 +6,7 @@ const plumber = require('gulp-plumber');
 const rename = require('gulp-rename');
 const ejs = require('gulp-ejs');
 const config = require('../config').simple;
-const files = './src/*.ejs';
+const files = './*/*.ejs';
 
 gulp.task('build', () => {
     gulp.src(
@@ -20,3 +20,7 @@ gulp.task('build', () => {
     .pipe(gulp.dest(config.ejs.dest));
 });
 
+gulp.task("watch", () => {  
+    gulp.watch('./src/*.ejs', ['build']);
+    gulp.watch('./src/templates/*.ejs', ['build']);
+});
