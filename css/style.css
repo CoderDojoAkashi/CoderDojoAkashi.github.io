@@ -4,9 +4,19 @@ html, body {
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, 游ゴシック, "Yu Gothic", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.5em;
   word-wrap: break-word;
+}
+
+h2, h3 {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-weight: 700;
+}
+
+.mdl-card__title-text {
+  font-weight: 400;
 }
 
 p {
