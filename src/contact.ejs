@@ -10,24 +10,39 @@
             <h3>お問い合わせ</h3>
 
             <!-- Numeric Textfield -->
-            <form action="#" style="">
-                <div class="mdl-textfield mdl-js-textfield" style="width: 500px;">
-                    <input class="mdl-textfield__input" type="text">
-                    <label class="mdl-textfield__label" for="">メールアドレス</label>
+            <form action="#" class="page-content">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--2-col">
+                        <p>
+                            メールアドレス
+                        </p>
+                    </div>
+                    <div class="mdl-cell mdl-cell--8-col mdl-textfield mdl-js-textfield">
+                        <input class="mdl-textfield__input" type="text">
+                        <label class="mdl-textfield__label" for="">example@hoge.com</label>
+                    </div>
                 </div>
-               
-               <br/> 
-               
-               <div class="mdl-textfield mdl-js-textfield" style="width: 500px;">
-                   <textarea class="mdl-textfield__input" type="text" rows= "5" id=""></textarea>
-                   <label class="mdl-textfield__label" for="text7">要件</label>
+
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--2-col">
+                        <p>
+                            要件
+                        </p>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield" style="width: 500px;">
+                        <textarea class="mdl-textfield__input" type="text" rows= "5" id=""></textarea>
+                        <label class="mdl-textfield__label" for="text7"></label>
+                    </div>
                </div>
-                
+
                <br/>
-                
-               <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored  mdl-js-ripple-effect">
-               送信
-               </button> 
+
+               <div class="mdl-grid">
+                   <div class="mdl-layout-spacer"></div>
+                   <button class="mdl-cell mdl-cell--2-col mdl-button mdl-js-button mdl-button--raised mdl-button--colored  mdl-js-ripple-effect"">
+                       送信
+                   </button>
+               </div>
             </form>
 
         <% include templates/_end_contents %>
