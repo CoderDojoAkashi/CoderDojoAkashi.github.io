@@ -27,7 +27,16 @@
 </head>
 
     <body>
-        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
         <header class="mdl-layout__header">
   <div class="mdl-layout__header-row mdl-js-ripple-effect">
@@ -90,19 +99,23 @@
   </div>
   <div class="mdl-layout-spacer"></div>
 
-  <footer class="mdl-mini-footer">
-      <div class="mdl-mini-footer__left-section" style="margin-left: 20%;">
-        <div class="mdl-logo">© 2015 CoderDojo Akashi</div>
-      </div>
+  <footer class="mdl-mega-footer">
+    <div class="mdl-mega-footer__middle-section">
+      <div class="fb-page" data-href="https://www.facebook.com/CoderDojo-%E6%98%8E%E7%9F%B3-139582193048936/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/CoderDojo-%E6%98%8E%E7%9F%B3-139582193048936/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/CoderDojo-%E6%98%8E%E7%9F%B3-139582193048936/">CoderDojo 明石</a></blockquote></div>
 
-      <div class="mdl-mini-footer__right-section" style="margin-right: 20%;">
-        <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored mdl-js-ripple-effect mdl-shadow--4dp" onClick="location.href='https://www.facebook.com/CoderDojo-明石-139582193048936/'" style="margin-left: auto;">
-        <i class="fa fa-facebook social-logo" aria-hidden="true"></i>
-      </button>
-      </div>
-  </footer>
-</main>
+  </div>
+
+  <div class="mdl-mega-footer__bottom-section">
+    <div class="mdl-logo">© 2016 CoderDojo 明石</div>
+  </div>
+
+</footer>
+
+</main
 
         </div>
+
+
+
     </body>
 </html>
