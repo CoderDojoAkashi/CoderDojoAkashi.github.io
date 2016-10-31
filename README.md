@@ -1,6 +1,6 @@
-# CoderDojoAkashi.github.io
+# coderdojo-akashi.github.io
 
-Official Website of CoderDojo Akashi.
+CoderDojo 明石 Official Website.
 
 ## Build
 
