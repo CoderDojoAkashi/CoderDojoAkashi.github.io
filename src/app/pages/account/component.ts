@@ -1,8 +1,7 @@
 import { Component } from '@angular/core'
 
 @Component({
-    selector: 'index',
+    selector: 'account-page',
     templateUrl: './view.html',
-    styleUrls: ['./style.css']
 })
-export class IndexComponent { }
+export class AccountPage { }
