@@ -1,0 +1,145 @@
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+}
+
+html, body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 游ゴシック, "Yu Gothic", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  word-wrap: break-word;
+}
+
+h2, h3, h4 {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, 游ゴシック, "Yu Gothic", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+ul, ol {
+    line-height: 2.5em;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mdl-card__title-text {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 500;
+  line-height: 2.5em;
+  color: #333;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 18px;
+}
+
+.mdl-layout-title {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 游ゴシック, "Yu Gothic", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.mdl-card__title-text {
+  font-family: -apple-system, BlinkMacSystemFont, 游ゴシック, "Yu Gothic", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.mdl-button {
+  font-family: -apple-system, BlinkMacSystemFont, 游ゴシック, "Yu Gothic", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.mdl-navigation__link {
+  font-size: 18px;
+}
+
+.coderdojo-akashi-max-width {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.coderdojo-akashi-img {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.coderdojo-akashi-img-item {
+    margin: auto;
+    min-height: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.social-logo {
+    color: #eee;
+    text-decoration: none;
+}
+
+.footer-content {
+  margin: 20px 0;
+}
+
+.mdl-mini-footer__social-btn {
+    background-color: rgb(0, 50, 150);
+}
+
+.mdl-mini-footer__social-btn:hover {
+    background-color: rgb(0, 80, 180);
+}
+
+
+ .mdl-layout__content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+ }
+
+ .mdl-layout__content > *:not(.mdl-layout-spacer) {
+ -webkit-flex: none;
+ -ms-flex: none;
+ flex: none;
+ }
+
+.frame {
+  overflow:hidden;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  height:100%;
+  width:100%;
+  position:relative;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+address.gmail {
+    font-size: 20px;
+}
+
+address.gmail::after {
+    content : "@gmail.com";
+}
