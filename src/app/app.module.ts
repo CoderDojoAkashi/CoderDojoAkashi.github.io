@@ -8,12 +8,16 @@ import { MaterializeModule } from 'angular2-materialize';
 
 import { IndexComponent } from './components/index/component';
 import { NavbarComponent } from './components/navbar/component';
+import { FooterComponent } from './components/footer/component';
 
 import { AboutPage } from './pages/about/component';
 import { ActivityPage } from './pages/activity/component';
 import { AccountPage } from './pages/account/component';
 import { ContactPage } from './pages/contact/component';
 import { IndexPage } from './pages/index/component';
+
+require('../../dist/css/reset.css')
+require('../../dist/css/materialize.min.css')
 
 const routes: Routes = [
   { path: 'index', component: IndexPage },
@@ -30,13 +34,14 @@ const routes: Routes = [
         BrowserAnimationsModule,
         FlexLayoutModule,
         MaterializeModule,
-        RouterModule.forRoot(routes),
+        RouterModule.forRoot(routes,  { useHash: true }),
     ],
     exports: [
     ],
     declarations: [
         IndexComponent,
         NavbarComponent,
+        FooterComponent,
 
         AboutPage,
         ActivityPage,

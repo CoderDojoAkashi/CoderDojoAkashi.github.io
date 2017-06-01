@@ -7,3 +7,18 @@ nav a {
 material-icons {
     color: #ab8;
 }
+
+img.logo {
+    height: 64px;
+}
+
+@media (max-width: 600px) {
+    .navbar-material .nav-wrapper .brand-logo img {
+        height: 56px;
+    }
+}
+
+.logo-text {
+    margin-left: 100px;
+    font-size: 20px;
+}

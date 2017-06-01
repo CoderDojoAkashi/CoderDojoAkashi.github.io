@@ -1,0 +1,20 @@
+address.gmail {
+    font-size: 20px;
+    font-style: normal;
+}
+
+address.gmail::after {
+    content: "@gmail.com";
+}
+
+.parallax img {
+    filter: blur(10px) contrast(150%);
+}
+
+.parallax-container {
+    height: 300px;
+}
+
+.parallax-text {
+    height: 300px;
+}

@@ -1,0 +1,3 @@
+.slides img {
+    filter: saturate(150%) blur(0px);
+}

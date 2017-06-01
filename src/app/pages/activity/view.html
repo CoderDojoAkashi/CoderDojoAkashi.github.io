@@ -1,1 +1,55 @@
-<h1>Activity</h1>
+<div class="parallax-container">
+
+  <div class="parallax">
+    <img [src]="bg_img">
+  </div>
+
+  <div class="container valign-wrapper parallax-text">
+    <h4 class="white-text">活動報告</h4>
+  </div>
+
+</div>
+
+<div class="section">
+  <div class="container">
+
+    <h4>各活動報告の詳細について</h4>
+    <a href="https://www.facebook.com/CoderDojoAkashi/">Facebookページ</a>をご覧下さい。
+
+  </div>
+</div>
+
+<div class="section">
+  <div class="container">
+
+    <h4>忍者の制作物</h4>
+
+    <p>準備中です。</p>
+
+  </div>
+</div>
+
+<div class="section">
+  <div class="container">
+    <h4>過去の活動</h4>
+    <table class="highlight">
+      <thead>
+        <tr>
+          <th>日付</th>
+          <th>活動</th>
+          <th>場所/イベント</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <ng-container *ngFor="let item of logs.history">
+          <tr>
+            <td>{{item.date}}</td>
+            <td>{{item.title}}</td>
+            <td>{{item.place}}</td>
+          </tr>
+        </ng-container>
+      </tbody>
+    </table>
+  </div>
+</div>

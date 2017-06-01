@@ -1,12 +1,9 @@
 import { Component } from '@angular/core'
 
 @Component({
-    selector: 'index',
+    selector: 'customized-footer',
     templateUrl: './view.html',
     styleUrls: ['./style.css']
 })
-export class IndexComponent {
+export class FooterComponent { }
 
-    constructor() {
-    }
-}

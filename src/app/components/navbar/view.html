@@ -1,6 +1,15 @@
 <nav class="white" role="navigation">
   <div class="nav-wrapper container">
-    <a id="logo-container" href="#" class="brand-logo">CoderDojo 明石</a>
+    <a id="logo-container" routerLink="/index" class="brand-logo">
+      <div class="row">
+        <div class="col s4">
+          <img [src]="logo" class="responsive-img logo">
+        </div>
+        <div class="col s8 logo-text">
+          CoderDojo 明石
+        </div>
+      </div>
+    </a>
     <ul class="right hide-on-med-and-down">
       <li><a routerLink="/about">CoderDojo明石について</a></li>
       <li><a routerLink="/activity">活動報告</a></li>
