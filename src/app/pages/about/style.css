@@ -1,0 +1,16 @@
+.parallax-container {
+    height: 300px;
+}
+
+.parallax img {
+    filter: blur(10px) contrast(150%);
+}
+
+.parallax-text {
+    height: 300px;
+}
+
+.material-item {
+    height: 150px;
+    margin: 30px;
+}
