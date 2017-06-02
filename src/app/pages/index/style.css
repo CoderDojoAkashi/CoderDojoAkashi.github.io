@@ -1,3 +1,4 @@
 .slides img {
-    filter: saturate(150%) blur(0px);
+    filter: saturate(150%) blur(10px) contrast(150%);
+    background-blend-mode: darken;
 }
