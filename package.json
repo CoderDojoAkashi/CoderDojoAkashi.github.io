@@ -5,7 +5,7 @@
     "scripts": {
         "start": "webpack-dev-server --inline --progress --colors --watch --port 8080",
         "test": "karma start",
-        "build": "rimraf docs && webpack --config config/webpack.prod.js --progress --profile --bail"
+        "build": "rimraf js css assets && webpack --config config/webpack.prod.js --progress --profile --bail"
     },
     "repository": {
         "type": "git",
